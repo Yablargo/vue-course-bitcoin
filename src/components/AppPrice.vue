@@ -14,7 +14,15 @@
         </tr>
       </thead>
       <tbody>
-        <!-- loop for coins and display the value -->
+        <tr v-for="(value, key, index) in coins" :key="key">
+          <th>{{ index + 1 }}</th>
+          <td>{{ key }}</td>
+          <td>{{ value.USD.MKTCAP }}</td>
+          <td>{{ value.USD.PRICE }}</td>
+          <td>{{ value.USD.VOLUME24HOUR }}</td>
+          <td>{{ value.USD.SUPPLY }}</td>
+          <td>{{ value.USD.OPEN24HOUR }}</td>
+        </tr>
       </tbody>
     </table>
   </section>

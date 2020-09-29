@@ -1,16 +1,16 @@
 <template>
   <section class="section">
     <h1>Crypto prices</h1>
-    <table class="">
+    <table class="table">
       <thead>
-        <tr class="">
-          <th>#</th>
-          <th>Name</th>
-          <th>Market Cap</th>
-          <th>Price</th>
-          <th>Volume (24h)</th>
-          <th>Circulating Supply</th>
-          <th>Open (24h)</th>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Market Cap</th>
+          <th scope="col">Price</th>
+          <th scope="col">Volume (24h)</th>
+          <th scope="col">Circulating Supply</th>
+          <th scope="col">Open (24h)</th>
         </tr>
       </thead>
       <tbody>

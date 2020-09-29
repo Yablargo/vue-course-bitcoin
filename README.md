@@ -50,3 +50,13 @@ The 5 currencies are:
 5. Theter (USDT).
 
 - Create a `<table>` to display the coins data.
+
+## 3. CSS styling
+
+- Include Bootstrap CDN.
+- Format the table to display properly
+- Add container class in App.vue
+
+## 4. Navigation bar
+
+- Create a new component 'AppNews.vue'

@@ -1,24 +1,12 @@
-# vue-course-bitcoin
+# 1. Development setup using vue-cli
 
-## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
+vue create vue-course-bitcoin
+cd vue-course-bitcoin
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Delete components and App.vue template to start fresh.
+- Install axios `npm install --save axios`
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 2. Project architecture

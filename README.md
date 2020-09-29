@@ -28,3 +28,25 @@ We're going to build 2 components:
 - Use `mapState` to load the coins data into the App.vue
 
 ### 2.2 Display data in a table
+
+- create a new component 'AppPrice.vue'
+- move the code from App.vue into AppPrice.vue
+- setup vue-router
+
+In this component, we’re going to display:
+
+- price
+- the market cap
+- the volume
+- the open for the last 24 hours
+- the circulating supply for the five different currencies
+
+The 5 currencies are:
+
+1. Bitcoin (BTC).
+2. Ethereum (ETH).
+3. Dash (DASH).
+4. Dogecoin (DOGE).
+5. Theter (USDT).
+
+- Create a `<table>` to display the coins data.

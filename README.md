@@ -60,3 +60,7 @@ The 5 currencies are:
 ## 4. Navigation bar
 
 - Create a new component 'AppNews.vue'
+- Update routes.js
+- Create nav bar to switch routes
+
+## 5. News component

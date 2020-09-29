@@ -9,6 +9,10 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 
+Vue.filter("unixToDate", (value) => {
+  return new Date(value * 1000).toLocaleDateString("en-US");
+});
+
 const router = new VueRouter({
   routes,
   mode: "history",

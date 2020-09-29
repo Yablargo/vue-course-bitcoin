@@ -64,3 +64,10 @@ The 5 currencies are:
 - Create nav bar to switch routes
 
 ## 5. News component
+
+- Create a new News store first to download the latest news.
+- API URL: https://min-api.cryptocompare.com/data/v2/news/?lang=EN
+- Study the response of this API.
+- Create a card to display title, body and date published (published_on)
+- Create a button to navigate to the URL source.
+- Create a `unixToDate` filter to format the date published from unix to datetime.

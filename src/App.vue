@@ -5,13 +5,12 @@
         ><a>Home</a></router-link
       >
 
-      <router-link
-        class="nav-item"
-        tag="li"
-        to="/news"
-        exact
-        active-class="active"
+      <router-link tag="li" to="/news" exact active-class="active"
         ><a>News</a></router-link
+      >
+
+      <router-link tag="li" to="/chart" exact active-class="active"
+        ><a>Chart</a></router-link
       >
     </ul>
 

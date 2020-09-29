@@ -71,3 +71,12 @@ The 5 currencies are:
 - Create a card to display title, body and date published (published_on)
 - Create a button to navigate to the URL source.
 - Create a `unixToDate` filter to format the date published from unix to datetime.
+
+## 6. Realtime data visualization with Socket
+
+`npm install --save chart.js express socket.io socket.io-client vue-chartjs`
+
+- Copy server.js
+- run `node server.js` to start socket io server.
+
+Create a server.js code for a socket.io app.
